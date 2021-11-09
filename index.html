@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Horario</title>
+</head>
+<body>
+
+    <div class="row" id="main-container">
+        <div class="col-md-4"></div>
+        <div class="col-md-4" id="secondary-container">
+
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link disabled mt-3" aria-current="page" href="#">Datos Personales</a>
+                </li>        
+              </ul>
+
+            <div class="card border-primary mb-3 card-div" id="datospersonales-container">
+
+                <div class="card-header headerstyle text-primary card-header"><h3>Datos Personales</h3></div>
+                <div class="card-body text-primary"></div>
+        
+                <div class="mb-3">
+                    <input type="text" class="form-control mymarginleft estilo1" id="nombre" placeholder="Nombre">
+                </div>
+                 
+                <div class="mb-3">
+                    <input type="text" class="form-control mymarginleft estilo1" id="provincia" placeholder="Provincia">
+                </div>
+        
+                <div class="mb-3">
+                    <input type="text" class="form-control mymarginleft estilo1" id="ciudad" placeholder="Ciudad">
+                </div>
+        
+                <div class="mb-3">
+                    <input type="text" class="form-control mymarginleft estilo1" id="sector" placeholder="Sector">
+                </div>
+        
+                <div class="mb-3">
+                    <input type="text" class="form-control mymarginleft estilo1" id="calle" placeholder="Calle">
+                </div>
+        
+                <div class=" estilo3">
+                    <label for="carreras" class="form-label labelmargin carrera-style">Carrera: </label>
+                    <select class="form-select btn btn-light" style="max-width:20rem;" id="carrerasdd">
+                        <option value="">----------</option>
+                        <option value="Software">Software</option>
+                        <option value="Redes">Redes</option>
+                        <option value="Multimedia">Multimedia</option>                
+                    </select>
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button type="button" class="btn btn-primary btn-estilo1" id="btnregistrar">Registrar</button>
+                    <button type="button" class="btn btn-danger btn-estilo2" id="btnlimpiar">Limpiar</button>
+                </div>       
+                     
+                    
+            </div>  
+
+        </div>
+        <div class="col-md-4"></div>
+    </div>  
+    
+</body>
+<script src="assets//jquery/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="assets/js/index/index-jq.js"></script>
+</html>

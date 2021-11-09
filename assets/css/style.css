@@ -1,0 +1,62 @@
+.estilo1 {
+    width: 98%;
+    margin-left: 1%;
+  }
+
+  .btn-estilo1 {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+  .btn-estilo2 {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+  }
+
+  .card-header{
+      text-align: center;
+  }
+
+  .card-div{
+      margin-top: 5%;
+  }
+
+  .input-error{
+    border-color:tomato;
+    border-width: medium;
+  }
+
+  .carrera-style{
+      font-weight: bold; 
+      font-size: larger;
+  }
+
+  .estilo3{
+      margin-left: 2%;
+  }
+
+  .materiasHeader {
+    margin-top: 7%;
+    margin-bottom: 1%;
+    border-color: black;
+    border-width: thick;
+  }
+
+  .materiasBtn {
+    width: 98%;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+
+  .finalizarConfBTN {
+    width: 98%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+  }
+
+
+
+
